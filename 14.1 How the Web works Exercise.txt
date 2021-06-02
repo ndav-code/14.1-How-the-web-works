@@ -1,0 +1,36 @@
+How Web Works Exercise
+Part One: Solidify Terminology
+In your own terms, define the following terms:
+
+What is HTTP?
+HTTP stands for Hyper Text Transfer Protocol and it is the format in which a client get data from or send to a server.
+
+What is a URL?
+URL stands for Uniform Resource Locator, and it represent the addres for a internet resource.
+
+What is DNS?
+DNS stands for Domain Name System, and it is a system that convert a human readable URL to an IP address.
+
+What is a query string?
+The query string allows you to pass the key-value pairs in to the URL in the format ?key1=value1&key2=value2&...
+
+What are two HTTP verbs and how are they different?
+The two HTTP verbs are GET and POST. Get, gets data from the server via most pages and, search form, but POST sends data to the server via pages that change data on server.
+
+What is an HTTP request?
+HTTP request is a client request from a server in HTTP format, for example requesting  html for wikipedia.org.
+
+What is an HTTP response?
+HTTP response is the server's response to client request in HTTP format,for example sending html file to the client.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+Header allows client to ask for more conditions in their request and for the server to provide more information in the responce.
+example of header: "Accept-Language" allows client to request a page in other languages, and the "date", showes the date that server thinks the request/response is made.
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+1. The browser resolves the URL into an IP address using DNS.
+2.The browser makes a request to that IP address including the information about the browser, previous cookies and more.
+3.The server sends a respond (usually HTML with status code like 200 if it was successful)
+4. The browser makes a DOM form that html and find any other resources needed (image, css, javascript)
+5.The browser make seperate HTTP requests for those resource and receive response from the server for each.
+
